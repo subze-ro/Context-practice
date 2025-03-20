@@ -2,6 +2,9 @@ import React from 'react'
 import CustomerForm from './components/CustomerForm'
 import CustomerList from './components/CustomerList'
 import AccountForm from './components/AccountForm'
+import AccountList from './components/AccountList'
+import TransactionForm from './components/TransactionForm'
+import TransactionList from './components/TransactionList'
 
 const MainPage = () => {
   return (
@@ -14,7 +17,11 @@ const MainPage = () => {
         </div>
         <div>
           <AccountForm />
-          
+          <AccountList/>
+        </div>
+        <div>
+          <TransactionForm />
+          <TransactionList/>
         </div>
       </div>
     </div>
