@@ -1,11 +1,14 @@
 import React from 'react'
 import { CustomerProvider } from './contexts/CustomerContext'
+import { AccountProvider } from './contexts/AccountContext'
 import MainPage from './MainPage'
 
 const App = () => {
   return (
     <CustomerProvider>
-      <MainPage/>
+      <AccountProvider>
+        <MainPage />
+        </AccountProvider>
    </CustomerProvider>
   )
 }

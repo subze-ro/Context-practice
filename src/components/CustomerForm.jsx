@@ -52,7 +52,7 @@ const CustomerForm = () => {
       />
       <input
         {...register('dateOfRegistration')}
-        placeholder='date'
+        type='date'
         className='w-full p-2 mb-4 border rounded'
       />
       <select
@@ -61,6 +61,7 @@ const CustomerForm = () => {
       >
         <option value="Individual">Individual</option>
         <option value="Business">Business</option>
+        <option value="Commercial">Commercial</option>
       </select>
       <input
         type='file'

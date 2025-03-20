@@ -1,6 +1,7 @@
 import React from 'react'
 import CustomerForm from './components/CustomerForm'
 import CustomerList from './components/CustomerList'
+import AccountForm from './components/AccountForm'
 
 const MainPage = () => {
   return (
@@ -10,6 +11,10 @@ const MainPage = () => {
         <div>
           <CustomerForm />
           <CustomerList/>
+        </div>
+        <div>
+          <AccountForm />
+          
         </div>
       </div>
     </div>
